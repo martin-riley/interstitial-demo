@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.layout {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page.pdp,
+.page.inter-1,
+.page.inter-2,
+.page.inter-3,
+.page.retailer {
+    width: 367px;
+    height: 768px;
+    position: absolute;
+}
+
+.btn {
+    /* transparent element to click */
+    height: 57px;
+    width: 100%;
+    position: absolute;
+    bottom: 59px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.pdp {
+    background-image: url("images/pdp.png");
+}
+
+.inter-1 {
+    background-image: url("images/Interstitial-1.png");
+}
+
+.inter-2 {
+    background-image: url("images/Interstitial-2.png");
+}
+
+.inter-3 {
+    background-image: url("images/Interstitial-3.png");
+}
+
+.retailer {
+    background-image: url("images/dunelm.png");
+}
